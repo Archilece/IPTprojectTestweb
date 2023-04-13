@@ -105,20 +105,45 @@ input[name = "psw"]
     border: 1px ;
     position: relative;
     left: 25%;
-    top: 10%;
+    top: 4%;
     background-color: whitesmoke;
     border-radius: 5px;
+}
+
+
+
+.forum-section h2
+{
+    padding: 10px;
+    color: white;
+    background-color: #0062a9ca;
+    position: relative;
+    top: -15px;
+    left: -2px;
+    width: 98%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .forum-title 
 {
   width: fit-content;
   height: fit-content;
-  background-color: antiquewhite;
+  background-color: white;
+  
 }
 
 .forum-title a
 {
   text-decoration: none;
+  color: black;
+}
+
+.description
+{
+    background-color: white;
+    background: url(bg2.png);
+    padding: 5px;
+    border-top-left-radius: 10px;
 }
 
