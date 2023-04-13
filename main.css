@@ -3,7 +3,7 @@ body
     background-image: url(bg2.png);
     background-position: center;
     background-size: cover;
-    border: 1px solid;
+
 }
 .navBar
 {   
@@ -115,5 +115,5 @@ input[name = "psw"]
 {
   width: fit-content;
   height: fit-content;
-
+  text-decoration: none;
 }
