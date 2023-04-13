@@ -3,7 +3,6 @@ body
     background-image: url(bg2.png);
     background-position: center;
     background-size: cover;
-
 }
 .navBar
 {   
@@ -115,5 +114,10 @@ input[name = "psw"]
 {
   width: fit-content;
   height: fit-content;
+}
+
+.forum-title a
+{
   text-decoration: none;
 }
+
