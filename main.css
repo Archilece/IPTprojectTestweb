@@ -115,6 +115,7 @@ input[name = "psw"]
   width: fit-content;
   height: fit-content;
   border: 1px solid;
+  padding-top: 0%;
 }
 
 .forum-title a
