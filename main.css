@@ -147,20 +147,30 @@ input[name = "psw"]
     border-top-left-radius: 10px;
 }
 
-.about-us
-{
-    width: 22%;
-    padding: 5px;
-    background-color: whitesmoke;
+.about-us {
     position: absolute;
-    top: 18%;
-    
-}
-
-.info
-{
-    background-image: url(bg2.jpg);
-    background-repeat: no-repeat;
-  background-size: auto;
-    
-}
+    top: 15%;
+    display: inline-block;
+    background-color: #0062a9ca;
+    color:  white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 60px;
+    left: 50px;
+  }
+  
+  .about-us-dpd {
+    display: none;
+    position: absolute;
+    background-color: #0095ffca;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .about-us:hover .about-us-dpd {
+    display: block;
+  }
