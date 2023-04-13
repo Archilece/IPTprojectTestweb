@@ -1,0 +1,18 @@
+body
+{
+    background-image: url(bg2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.help-info
+{
+    width: 50%;
+    padding: 10px;
+    border: 1px ;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
