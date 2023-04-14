@@ -1,8 +1,29 @@
 <html>
     <head>
         <link rel="stylesheet" href="help.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="app.js"></script>
     </head>
     <body>
+        <title>G Forum</title>
+        <div class="navBar">
+            <h1 class="name">G Forum</h1>
+            <a href="#" onclick="backHome()">Home</a>
+            <a href="#">Help</a>
+            <a href="#">Sign up</a>
+            <div class="sign-in">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+        </div>
         <div class="help-info">
             <div class="help-container">
                 <h1>Welcome to the G Forum Help Center</h1>
@@ -18,7 +39,7 @@
                         We're here to help you have the best experience possible on G Forum. Thank you for using our website!</p>
                 </div>
             </div>
-            <button>Back</button>
+            <button class="home-back" onclick="backHome()">Back</button>
         </div>
     </body>
 </html>
