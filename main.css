@@ -187,3 +187,17 @@ input[name = "psw"]
       background-color: whitesmoke;
       border-radius: 5px;
   }
+
+
+  .container h1
+  {
+    padding: 10px;
+    color: white;
+    background-color: #0062a9ca;
+    position: relative;
+    top: -15px;
+    left: -2px;
+    width: 98%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }

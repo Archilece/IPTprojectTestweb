@@ -5,3 +5,7 @@ function goToHelpPage() {
   function backHome() {
     window.location.href = "index.html";
   }
+
+  function signUp() {
+    window.location.href = "signUp.html";
+  }
