@@ -1,0 +1,112 @@
+body
+{
+    background-image: url(bg2.png);
+    background-position: center;
+    background-size: cover;
+}
+.navBar
+{   
+    background-color: #0095ffca;
+    display: flex;
+    padding: 5px;
+    border-bottom: 10px solid;
+    border-color: #0095ffca;
+    position: fixed;
+    top: -8px;
+    left: -8px;
+    width: 100.3%;
+    position: relative;
+}
+
+.name
+{
+    border-style: outset;
+    width: 13%;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+   
+}
+
+.navBar a
+{
+   float: left;
+   display: block;
+   margin-top: auto;
+   padding: 10px;
+   margin-left: 3px;
+   font-size: 25px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+   
+}
+
+.navBar a:hover
+{
+    background-color: #0062a9ca;
+}
+
+.navBar a:active
+{
+    box-shadow: none;
+    top: 5px;
+}
+
+.container
+  {
+      text-align: center;
+      width: 50%;
+      padding: 10px;
+      border: 1px ;
+      position: relative;
+      left: 25%;
+      top: 4%;
+      background-color: whitesmoke;
+      border-radius: 5px;
+  }
+
+
+  .container h1
+  {
+    padding: 10px;
+    color: white;
+    background-color: #0062a9ca;
+    position: relative;
+    top: -15px;
+    left: -2px;
+    width: 98%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+
+
+  button
+{
+  background-color: #0062a9ca;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  height: auto;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.home-back:before {
+    content: "\2190"; /* Unicode character for left arrow */
+    margin-right: 5px;
+  }
+
+input
+{   
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    height: 40px;
+}
+
+

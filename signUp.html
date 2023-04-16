@@ -1,7 +1,7 @@
 <html>
     <head>
-        <link rel="stylesheet" href="help.css">
-        <link rel="stylesheet" href="main.css">
+       
+        <link rel="stylesheet" href="signUp.css">
         <script src="index.js"></script>
     </head>
     <title>G Forum</title>
@@ -14,15 +14,15 @@
         <div class="container">
             <h1>G Forum User Signup</h1>
             <h2>Username</h2>
-            <input type="text" id="userId">
+            <input type="text" id="userId" name="uname" required> 
             <h2>Password</h2>
-            <input type="text" id="userPsw">
+            <input type="text" id="userPsw" name="psw" required>
             <h2>Confirm Password</h2>
-            <input type="text" id="userPsw-con">
+            <input type="text" id="userPsw-con" name="psw-rqd" required>
             <h2>Email Address</h2>
-            <input type="text" id="userEmail"><br><br>
-            <button class="sign-up">Confirm</button><br><br>
-            <button class="home-back">Back</button>
+            <input type="text" id="userEmail" name="email" required><br><br>
+            <button class="sign-up" type="submit" onclick="backHome()">Confirm</button><br><br>
+            <button class="home-back" onclick="backHome()">Back</button>
         </div>
     </div>
 
