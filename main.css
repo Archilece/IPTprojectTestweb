@@ -3,6 +3,8 @@ body
     background-image: url(bg2.png);
     background-position: center;
     background-size: cover;
+    width: auto;
+    height: auto;
 }
 .navBar
 {   
